@@ -1,0 +1,2479 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "CW01 — Junior Party Member",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Human Citizen",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/19_CW01 — Junior Party Member.jpg"
+			}
+		},
+		{
+			"name": "CW02 — Lifecraft Heirloom",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Artifact Creature — Cat Construct",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/20_CW02 — Lifecraft Heirloom.jpg"
+			}
+		},
+		{
+			"name": "CW03 — Mirrormade Mobile",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/21_CW03 — Mirrormade Mobile.jpg"
+			}
+		},
+		{
+			"name": "CW04 — Night Minister's Stalwart",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Dwarf Rebel",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/22_CW04 — Night Minister's Stalwart.jpg"
+			}
+		},
+		{
+			"name": "CW05 — Ministry Intern",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Citizen",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/23_CW05 — Ministry Intern.jpg"
+			}
+		},
+		{
+			"name": "CW06 — Sleepless Lifecrafter",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Aetherborn Citizen",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/24_CW06 — Sleepless Lifecrafter.jpg"
+			}
+		},
+		{
+			"name": "CW07 — Vamanah Ramparts",
+			"rarity": "common",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Artifact Creature — Wall",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/25_CW07 — Vamanah Ramparts.jpg"
+			}
+		},
+		{
+			"name": "CW08 — Rally Coach",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Dwarf Pilot",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/26_CW08 — Rally Coach.jpg"
+			}
+		},
+		{
+			"name": "CW09 — Priest of the Incarnations",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Loxodon Cleric",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/27_CW09 — Priest of the Incarnations.jpg"
+			}
+		},
+		{
+			"name": "CW10 — Workshop Patron",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Loxodon Noble",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/28_CW10 — Workshop Patron.jpg"
+			}
+		},
+		{
+			"name": "CW11 — Patrician Machinist",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Dwarf Artificer",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/29_CW11 — Patrician Machinist.jpg"
+			}
+		},
+		{
+			"name": "CW12 — Engineered Almsmaker",
+			"rarity": "common",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Artifact Creature — Angel Construct",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/30_CW12 — Engineered Almsmaker.jpg"
+			}
+		},
+		{
+			"name": "CW13 — Restraint",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Enchantment — Aura Lesson",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/31_CW13 — Restraint.jpg"
+			}
+		},
+		{
+			"name": "CW14 — New Dawn Pamphlet",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Artifact — Equipment",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/32_CW14 — New Dawn Pamphlet.jpg"
+			}
+		},
+		{
+			"name": "CW15 — Precision Reprisal",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Instant — Lesson",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/33_CW15 — Precision Reprisal.jpg"
+			}
+		},
+		{
+			"name": "CW16 — Structural Redesign",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/34_CW16 — Structural Redesign.jpg"
+			}
+		},
+		{
+			"name": "CW17 — Synthetic Synergy",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Sorcery",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/35_CW17 — Synthetic Synergy.jpg"
+			}
+		},
+		{
+			"name": "CW18 — Recall for Redesign",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Sorcery",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/36_CW18 — Recall for Redesign.jpg"
+			}
+		},
+		{
+			"name": "CU01 — Jalpari Envoy",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Creature — Merfolk Noble",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/42_CU01 — Jalpari Envoy.jpg"
+			}
+		},
+		{
+			"name": "CU02 — Nilah Seeker",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Vedalken Artificer",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/43_CU02 — Nilah Seeker.jpg"
+			}
+		},
+		{
+			"name": "CU03 — Overburdened Aerial",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact Creature — Thopter",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/44_CU03 — Overburdened Aerial.jpg"
+			}
+		},
+		{
+			"name": "CU04 — Sarpah Outcast",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Merfolk Mercenary",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/45_CU04 — Sarpah Outcast.jpg"
+			}
+		},
+		{
+			"name": "CU05 — Route Mapper",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Vedalken Mercenary",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/46_CU05 — Route Mapper.jpg"
+			}
+		},
+		{
+			"name": "CU06 — Joyous Aerosmith",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Vedalken Artificer",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/47_CU06 — Joyous Aerosmith.jpg"
+			}
+		},
+		{
+			"name": "CU07 — Jalpari Cityshell",
+			"rarity": "common",
+			"mana_cost": "{5}{U}{U}",
+			"type": "Creature — Leviathan",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/48_CU07 — Jalpari Cityshell.jpg"
+			}
+		},
+		{
+			"name": "CU08 — Skulking Aethervore",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Octopus",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/49_CU08 — Skulking Aethervore.jpg"
+			}
+		},
+		{
+			"name": "CU09 — Flowing Mobile",
+			"rarity": "common",
+			"mana_cost": "{4}{U}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/50_CU09 — Flowing Mobile.jpg"
+			}
+		},
+		{
+			"name": "CU10 — Dazzling Wingsuit",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Artifact — Equipment",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/51_CU10 — Dazzling Wingsuit.jpg"
+			}
+		},
+		{
+			"name": "CU11 — Thundershield",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/52_CU11 — Thundershield.jpg"
+			}
+		},
+		{
+			"name": "CU12 — Supply Sabotage",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/53_CU12 — Supply Sabotage.jpg"
+			}
+		},
+		{
+			"name": "CU13 — Rapid Iteration",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant — Lesson",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/54_CU13 — Rapid Iteration.jpg"
+			}
+		},
+		{
+			"name": "CU14 — Flash Refining",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/55_CU14 — Flash Refining.jpg"
+			}
+		},
+		{
+			"name": "CU15 — Recognize Mistakes",
+			"rarity": "common",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Instant",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/56_CU15 — Recognize Mistakes.jpg"
+			}
+		},
+		{
+			"name": "CU16 — Observe the Cycle",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Sorcery — Lesson",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/57_CU16 — Observe the Cycle.jpg"
+			}
+		},
+		{
+			"name": "CU17 — Crunch Time",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/58_CU17 — Crunch Time.jpg"
+			}
+		},
+		{
+			"name": "CU18 — Lightning Prototyping",
+			"rarity": "common",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/59_CU18 — Lightning Prototyping.jpg"
+			}
+		},
+		{
+			"name": "CB01 — Contract Alchemist",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Human Rogue",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/71_CB01 — Contract Alchemist.jpg"
+			}
+		},
+		{
+			"name": "CB02 — Yaatra Guru",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Vedaken Wizard",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/72_CB02 — Yaatra Guru.jpg"
+			}
+		},
+		{
+			"name": "CB03 — Blood Driver",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Artifact Creature — Servo",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/73_CB03 — Blood Driver.jpg"
+			}
+		},
+		{
+			"name": "CB04 — Mandir Soulcutter",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Aetherborn Warrior",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/74_CB04 — Mandir Soulcutter.jpg"
+			}
+		},
+		{
+			"name": "CB05 — Razorblade Mobile",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/75_CB05 — Razorblade Mobile.jpg"
+			}
+		},
+		{
+			"name": "CB06 — Juggernaut Armature",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/76_CB06 — Juggernaut Armature.jpg"
+			}
+		},
+		{
+			"name": "CB07 — Tolerance Tester",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Aetherborn Artificer",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/77_CB07 — Tolerance Tester.jpg"
+			}
+		},
+		{
+			"name": "CB08 — Schematic Imp",
+			"rarity": "common",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Artifact Creature — Demon Construct",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/78_CB08 — Schematic Imp.jpg"
+			}
+		},
+		{
+			"name": "CB09 — Schematic Evangel",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Human Cleric",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/79_CB09 — Schematic Evangel.jpg"
+			}
+		},
+		{
+			"name": "CB10 — Pravah Blasphemy",
+			"rarity": "common",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Artifact Creature — Demon Construct",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/80_CB10 — Pravah Blasphemy.jpg"
+			}
+		},
+		{
+			"name": "CB11 — Vashaati's Dance",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Enchantment — Aura Lesson",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/81_CB11 — Vashaati's Dance.jpg"
+			}
+		},
+		{
+			"name": "CB12 — Transcendant Second",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/82_CB12 — Transcendant Second.jpg"
+			}
+		},
+		{
+			"name": "CB13 — Unsettling Craft",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Instant — Lesson",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/83_CB13 — Unsettling Craft.jpg"
+			}
+		},
+		{
+			"name": "CB14 — Unethical Experimentation",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/84_CB14 — Unethical Experimentation.jpg"
+			}
+		},
+		{
+			"name": "CB15 — Schematic Verse",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/85_CB15 — Schematic Verse.jpg"
+			}
+		},
+		{
+			"name": "CB16 — Circular Economics",
+			"rarity": "common",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/86_CB16 — Circular Economics.jpg"
+			}
+		},
+		{
+			"name": "CB17 — Greed of Ant Svayam",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/87_CB17 — Greed of Ant Svayam.jpg"
+			}
+		},
+		{
+			"name": "CB18 — Empty the Self",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/88_CB18 — Empty the Self.jpg"
+			}
+		},
+		{
+			"name": "CR01 — Gremlin Mascot",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature — Goblin Shaman",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/100_CR01 — Gremlin Mascot.jpg"
+			}
+		},
+		{
+			"name": "CR02 — Dragchase Veteran",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Pilot",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/101_CR02 — Dragchase Veteran.jpg"
+			}
+		},
+		{
+			"name": "CR03 — Kammuni Incensed",
+			"rarity": "common",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/102_CR03 — Kammuni Incensed.jpg"
+			}
+		},
+		{
+			"name": "CR04 — Minister's Bodyguard",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Dwarf Soldier",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/103_CR04 — Minister's Bodyguard.jpg"
+			}
+		},
+		{
+			"name": "CR05 — Rogue Refiner",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Artificer",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/104_CR05 — Rogue Refiner.jpg"
+			}
+		},
+		{
+			"name": "CR06 — Raktunag Artist",
+			"rarity": "common",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Creature — Human Bard",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/105_CR06 — Raktunag Artist.jpg"
+			}
+		},
+		{
+			"name": "CR07 — Self Igniting Mobile",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "106",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/106_CR07 — Self Igniting Mobile.jpg"
+			}
+		},
+		{
+			"name": "CR08 — Storied Maulfist",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Human Rebel",
+			"collector_number": "107",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/107_CR08 — Storied Maulfist.jpg"
+			}
+		},
+		{
+			"name": "CR09 — Parade Float",
+			"rarity": "common",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Artifact Creature — Juggernaut",
+			"collector_number": "108",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/108_CR09 — Parade Float.jpg"
+			}
+		},
+		{
+			"name": "CR10 — Clever Drake",
+			"rarity": "common",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Creature — Dragon",
+			"collector_number": "109",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/109_CR10 — Clever Drake.jpg"
+			}
+		},
+		{
+			"name": "CR11 — Shock",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "110",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/110_CR11 — Shock.jpg"
+			}
+		},
+		{
+			"name": "CR12 — Imported Flowstone",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Enchantment — Aura",
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/111_CR12 — Imported Flowstone.jpg"
+			}
+		},
+		{
+			"name": "CR13 — Backfire",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "112",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/112_CR13 — Backfire.jpg"
+			}
+		},
+		{
+			"name": "CR14 — Thrill of Possibility",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/113_CR14 — Thrill of Possibility.jpg"
+			}
+		},
+		{
+			"name": "CR15 — Rage of the Forgotten",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "114",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/114_CR15 — Rage of the Forgotten.jpg"
+			}
+		},
+		{
+			"name": "CR16 — Time to Quit",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant — Lesson",
+			"collector_number": "115",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/115_CR16 — Time to Quit.jpg"
+			}
+		},
+		{
+			"name": "CR17 — Consign to Rubbish",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/116_CR17 — Consign to Rubbish.jpg"
+			}
+		},
+		{
+			"name": "CR18 — Citipati's Howl",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Sorcery — Lesson",
+			"collector_number": "117",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/117_CR18 — Citipati's Howl.jpg"
+			}
+		},
+		{
+			"name": "CG01 — Tirahar Ancestor",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Creature — Elf Noble",
+			"collector_number": "129",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/129_CG01 — Tirahar Ancestor.jpg"
+			}
+		},
+		{
+			"name": "CG02 — Ghanam Jal Cultivator",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Elf Druid",
+			"collector_number": "130",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/130_CG02 — Ghanam Jal Cultivator.jpg"
+			}
+		},
+		{
+			"name": "CG03 — Assimilated Orochi",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Artifact Creautre — Equipment",
+			"collector_number": "131",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/131_CG03 — Assimilated Orochi.jpg"
+			}
+		},
+		{
+			"name": "CG04 — Entangled Wurm",
+			"rarity": "common",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Creature — Wurm",
+			"collector_number": "132",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/132_CG04 — Entangled Wurm.jpg"
+			}
+		},
+		{
+			"name": "CG05 — Tauroid Armature",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "133",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/133_CG05 — Tauroid Armature.jpg"
+			}
+		},
+		{
+			"name": "CG06 — Well-oiled Waldo",
+			"rarity": "common",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Artifact Creature — Assembly-Worker",
+			"collector_number": "134",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/134_CG06 — Well-oiled Waldo.jpg"
+			}
+		},
+		{
+			"name": "CG07 — Servo Servicer",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Elf Artificer",
+			"collector_number": "135",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/135_CG07 — Servo Servicer.jpg"
+			}
+		},
+		{
+			"name": "CG08 — Gilded Prizefighter",
+			"rarity": "common",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Human Citizen",
+			"collector_number": "136",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/136_CG08 — Gilded Prizefighter.jpg"
+			}
+		},
+		{
+			"name": "CG09 — Applied Kineticist",
+			"rarity": "common",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Loxodon Artificer",
+			"collector_number": "137",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/137_CG09 — Applied Kineticist.jpg"
+			}
+		},
+		{
+			"name": "CG10 — Bronzecraft Mobile",
+			"rarity": "common",
+			"mana_cost": "{3}{G}{G}{G}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "138",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/138_CG10 — Bronzecraft Mobile.jpg"
+			}
+		},
+		{
+			"name": "CG11 — Windup Monstrosity",
+			"rarity": "common",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "139",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/139_CG11 — Windup Monstrosity.jpg"
+			}
+		},
+		{
+			"name": "CG12 — Destructive Testing",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Enchantment",
+			"collector_number": "140",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/140_CG12 — Destructive Testing.jpg"
+			}
+		},
+		{
+			"name": "CG13 — Lifecraft Reinforcement",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Artifact — Equipment",
+			"collector_number": "141",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/141_CG13 — Lifecraft Reinforcement.jpg"
+			}
+		},
+		{
+			"name": "CG14 — Cycle's End",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "142",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/142_CG14 — Cycle's End.jpg"
+			}
+		},
+		{
+			"name": "CG15 — Cycles Beginning",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Instant",
+			"collector_number": "143",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/143_CG15 — Cycles Beginning.jpg"
+			}
+		},
+		{
+			"name": "CG16 — Peema Aetherscaping",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Sorcery — Lesson",
+			"collector_number": "144",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/144_CG16 — Peema Aetherscaping.jpg"
+			}
+		},
+		{
+			"name": "CG17 — Polluting Demise",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "145",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/145_CG17 — Polluting Demise.jpg"
+			}
+		},
+		{
+			"name": "CG18 — Invasion Cleanup",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "146",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/146_CG18 — Invasion Cleanup.jpg"
+			}
+		},
+		{
+			"name": "Rail Station",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Plains",
+			"collector_number": "190",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/190_Rail Station.jpg"
+			}
+		},
+		{
+			"name": "Canal Extension",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Island",
+			"collector_number": "182",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/182_Canal Extension.jpg"
+			}
+		},
+		{
+			"name": "Aetherworks Outflow",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Swamp",
+			"collector_number": "181",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/181_Aetherworks Outflow.jpg"
+			}
+		},
+		{
+			"name": "Hiker's District",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Mountain",
+			"collector_number": "189",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/189_Hiker's District.jpg"
+			}
+		},
+		{
+			"name": "Ghirapur Parkland",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Forest",
+			"collector_number": "188",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/188_Ghirapur Parkland.jpg"
+			}
+		},
+		{
+			"name": "Dynamic Steppe",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "186",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/186_Dynamic Steppe.jpg"
+			}
+		},
+		{
+			"name": "Dynamic Tidepools",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "187",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/187_Dynamic Tidepools.jpg"
+			}
+		},
+		{
+			"name": "Dynamic Marsh",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "184",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/184_Dynamic Marsh.jpg"
+			}
+		},
+		{
+			"name": "Dynamic Mountains",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "185",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/185_Dynamic Mountains.jpg"
+			}
+		},
+		{
+			"name": "Dynamic Jungle",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "183",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/183_Dynamic Jungle.jpg"
+			}
+		},
+		{
+			"name": "CA01 — Workshop Recycler",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact Creature — Servo",
+			"collector_number": "170",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/170_CA01 — Workshop Recycler.jpg"
+			}
+		},
+		{
+			"name": "CA02 — Scrap Pile",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact — Lesson",
+			"collector_number": "171",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/171_CA02 — Scrap Pile.jpg"
+			}
+		},
+		{
+			"name": "CA03 — Stylish Scarification",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact — Equipment",
+			"collector_number": "172",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/172_CA03 — Stylish Scarification.jpg"
+			}
+		},
+		{
+			"name": "CA04 — Aya Koan Floret",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "173",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/173_CA04 — Aya Koan Floret.jpg"
+			}
+		},
+		{
+			"name": "CA05 — New Model Skiff",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "174",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/174_CA05 — New Model Skiff.jpg"
+			}
+		},
+		{
+			"name": "CA08 — Refinery Locomotive",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "177",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/177_CA08 — Refinery Locomotive.jpg"
+			}
+		},
+		{
+			"name": "CA07 — Pathfinding Compass",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Lesson",
+			"collector_number": "176",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/176_CA07 — Pathfinding Compass.jpg"
+			}
+		},
+		{
+			"name": "CA06 — Envoy's Assistant",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature",
+			"collector_number": "175",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/175_CA06 — Envoy's Assistant.jpg"
+			}
+		},
+		{
+			"name": "CA10 — Automated Librarian",
+			"rarity": "common",
+			"mana_cost": "{5}",
+			"type": "Artifact Creature — Construct Citizen",
+			"collector_number": "179",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/179_CA10 — Automated Librarian.jpg"
+			}
+		},
+		{
+			"name": "CA09 — Prototype Mech Suit",
+			"rarity": "common",
+			"mana_cost": "{4}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "178",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/178_CA09 — Prototype Mech Suit.jpg"
+			}
+		},
+		{
+			"name": "CA11 — Atriarch Automaton",
+			"rarity": "common",
+			"mana_cost": "{7}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "180",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/180_CA11 — Atriarch Automaton.jpg"
+			}
+		},
+		{
+			"name": "RC01 — Dosraaj, Prince of Seconds",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{B}",
+			"type": "Legendary Creature — Aetherborn Wizard",
+			"collector_number": "158",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/158_RC01 — Dosraaj, Prince of Seconds.jpg"
+			}
+		},
+		{
+			"name": "RC02 — Teldrashi, Gutter Alchemist",
+			"rarity": "mythic",
+			"mana_cost": "{1}{B}{G}{U}",
+			"type": "Legendary Creature — Aetherborn Artificer",
+			"collector_number": "159",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/159_RC02 — Teldrashi, Gutter Alchemist.jpg"
+			}
+		},
+		{
+			"name": "RW01 — Austerity Advocate",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Loxodon Noble",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/37_RW01 — Austerity Advocate.jpg"
+			}
+		},
+		{
+			"name": "UM01 — Flightlord of Aya Koan",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{U}",
+			"type": "Artifact Creature — Thopter",
+			"collector_number": "162",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/162_UM01 — Flightlord of Aya Koan.jpg"
+			}
+		},
+		{
+			"name": "UM01 — Mysterious Middleman",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{B}",
+			"type": "Creature — Human Artificer Rogue",
+			"collector_number": "165",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/165_UM01 — Mysterious Middleman.jpg"
+			}
+		},
+		{
+			"name": "UM01 — Abusive Industrialist",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Creature — Human Noble Rogue",
+			"collector_number": "160",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/160_UM01 — Abusive Industrialist.jpg"
+			}
+		},
+		{
+			"name": "UM01 — Ministry Shathasta",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{G}",
+			"type": "Creature — Loxodon Artificer Warrior",
+			"collector_number": "164",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/164_UM01 — Ministry Shathasta.jpg"
+			}
+		},
+		{
+			"name": "UM01 — Matriarch of Machines",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{W}",
+			"type": "Creature — Elf Artificer",
+			"collector_number": "163",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/163_UM01 — Matriarch of Machines.jpg"
+			}
+		},
+		{
+			"name": "UM01 — Priest of Entropy",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{B}",
+			"type": "Creature — Aetherborn Cleric",
+			"collector_number": "167",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/167_UM01 — Priest of Entropy.jpg"
+			}
+		},
+		{
+			"name": "UM01 — Overclocked Clockwork",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Artifact Creature — Servo",
+			"collector_number": "166",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/166_UM01 — Overclocked Clockwork.jpg"
+			}
+		},
+		{
+			"name": "UM01 — Streetsweeper's Salesman",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{G}",
+			"type": "Artifact Creature — Servo",
+			"collector_number": "168",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/168_UM01 — Streetsweeper's Salesman.jpg"
+			}
+		},
+		{
+			"name": "UM01B — Ministry Margayod",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Creature — Dwarf Pilot Soldier",
+			"collector_number": "169",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/169_UM01B — Ministry Margayod.jpg"
+			}
+		},
+		{
+			"name": "UM01 — Consulting Guru",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{U}",
+			"type": "Creature — Vedalken Artificer Noble",
+			"collector_number": "161",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/161_UM01 — Consulting Guru.jpg"
+			}
+		},
+		{
+			"name": "MA01 — Aya Koan Prime",
+			"rarity": "mythic",
+			"mana_cost": "{5}",
+			"type": "Legendary Creature — Construct Avatar",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/1_MA01 — Aya Koan Prime.jpg"
+			}
+		},
+		{
+			"name": "UW01",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/38_UW01.jpg"
+			}
+		},
+		{
+			"name": "UW02",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/10_UW02.jpg"
+			}
+		},
+		{
+			"name": "UW03",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/11_UW03.jpg"
+			}
+		},
+		{
+			"name": "UW04",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/12_UW04.jpg"
+			}
+		},
+		{
+			"name": "UW05",
+			"rarity": "uncommon",
+			"mana_cost": "{4}",
+			"type": "",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/13_UW05.jpg"
+			}
+		},
+		{
+			"name": "UW06",
+			"rarity": "uncommon",
+			"mana_cost": "{5}",
+			"type": "",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/14_UW06.jpg"
+			}
+		},
+		{
+			"name": "UW07",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/15_UW07.jpg"
+			}
+		},
+		{
+			"name": "UW08",
+			"rarity": "uncommon",
+			"mana_cost": "{6}",
+			"type": "",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/16_UW08.jpg"
+			}
+		},
+		{
+			"name": "UW09",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/39_UW09.jpg"
+			}
+		},
+		{
+			"name": "UW10",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/40_UW10.jpg"
+			}
+		},
+		{
+			"name": "UW11",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/41_UW11.jpg"
+			}
+		},
+		{
+			"name": "UU01",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/60_UU01.jpg"
+			}
+		},
+		{
+			"name": "UU02",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/61_UU02.jpg"
+			}
+		},
+		{
+			"name": "UU03",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/62_UU03.jpg"
+			}
+		},
+		{
+			"name": "UU04",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/63_UU04.jpg"
+			}
+		},
+		{
+			"name": "UU05",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/64_UU05.jpg"
+			}
+		},
+		{
+			"name": "UU06",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/65_UU06.jpg"
+			}
+		},
+		{
+			"name": "UU07",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/66_UU07.jpg"
+			}
+		},
+		{
+			"name": "UU08",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/67_UU08.jpg"
+			}
+		},
+		{
+			"name": "UU09",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/68_UU09.jpg"
+			}
+		},
+		{
+			"name": "UU10",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/69_UU10.jpg"
+			}
+		},
+		{
+			"name": "UU11",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/70_UU11.jpg"
+			}
+		},
+		{
+			"name": "UB01",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/89_UB01.jpg"
+			}
+		},
+		{
+			"name": "UB02",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/90_UB02.jpg"
+			}
+		},
+		{
+			"name": "UB03",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/91_UB03.jpg"
+			}
+		},
+		{
+			"name": "UB04",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/92_UB04.jpg"
+			}
+		},
+		{
+			"name": "UB05",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/93_UB05.jpg"
+			}
+		},
+		{
+			"name": "UB06",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/94_UB06.jpg"
+			}
+		},
+		{
+			"name": "UB07",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/95_UB07.jpg"
+			}
+		},
+		{
+			"name": "UB08",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/96_UB08.jpg"
+			}
+		},
+		{
+			"name": "UB09",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/97_UB09.jpg"
+			}
+		},
+		{
+			"name": "UB10",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/98_UB10.jpg"
+			}
+		},
+		{
+			"name": "UB11",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/99_UB11.jpg"
+			}
+		},
+		{
+			"name": "UR01",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/118_UR01.jpg"
+			}
+		},
+		{
+			"name": "UR02",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "119",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/119_UR02.jpg"
+			}
+		},
+		{
+			"name": "UR03",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/120_UR03.jpg"
+			}
+		},
+		{
+			"name": "UR04",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "121",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/121_UR04.jpg"
+			}
+		},
+		{
+			"name": "UR05",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "122",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/122_UR05.jpg"
+			}
+		},
+		{
+			"name": "UR06",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "123",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/123_UR06.jpg"
+			}
+		},
+		{
+			"name": "UR07",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "124",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/124_UR07.jpg"
+			}
+		},
+		{
+			"name": "UR08",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "125",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/125_UR08.jpg"
+			}
+		},
+		{
+			"name": "UR09",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "126",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/126_UR09.jpg"
+			}
+		},
+		{
+			"name": "UR10",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "127",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/127_UR10.jpg"
+			}
+		},
+		{
+			"name": "UR11",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "128",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/128_UR11.jpg"
+			}
+		},
+		{
+			"name": "UG01",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "147",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/147_UG01.jpg"
+			}
+		},
+		{
+			"name": "UG02",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "148",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/148_UG02.jpg"
+			}
+		},
+		{
+			"name": "UG03",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "149",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/149_UG03.jpg"
+			}
+		},
+		{
+			"name": "UG04",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "150",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/150_UG04.jpg"
+			}
+		},
+		{
+			"name": "UG05",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "151",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/151_UG05.jpg"
+			}
+		},
+		{
+			"name": "UG06",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "152",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/152_UG06.jpg"
+			}
+		},
+		{
+			"name": "UG07",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "153",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/153_UG07.jpg"
+			}
+		},
+		{
+			"name": "UG08",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "154",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/154_UG08.jpg"
+			}
+		},
+		{
+			"name": "UG09",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "155",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/155_UG09.jpg"
+			}
+		},
+		{
+			"name": "UG10",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "156",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/156_UG10.jpg"
+			}
+		},
+		{
+			"name": "UG11",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "157",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/157_UG11.jpg"
+			}
+		},
+		{
+			"name": "UW12",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/17_UW12.jpg"
+			}
+		},
+		{
+			"name": "UU12",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/8_UU12.jpg"
+			}
+		},
+		{
+			"name": "UB12",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/2_UB12.jpg"
+			}
+		},
+		{
+			"name": "UR12",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/6_UR12.jpg"
+			}
+		},
+		{
+			"name": "UG12",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/4_UG12.jpg"
+			}
+		},
+		{
+			"name": "UW13",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/18_UW13.jpg"
+			}
+		},
+		{
+			"name": "UU13",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/9_UU13.jpg"
+			}
+		},
+		{
+			"name": "UB13",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/3_UB13.jpg"
+			}
+		},
+		{
+			"name": "UR13",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/7_UR13.jpg"
+			}
+		},
+		{
+			"name": "UG13",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://idawso349.github.io/sets/ARI-files/img/5_UG13.jpg"
+			}
+		}
+	]
+
+[rare(1)]
+	2 RC01 — Dosraaj, Prince of Seconds
+	1 RC02 — Teldrashi, Gutter Alchemist
+	2 RW01 — Austerity Advocate
+	1 MA01 — Aya Koan Prime
+[uncommon(3)]
+	4 Dynamic Steppe
+	4 Dynamic Tidepools
+	4 Dynamic Marsh
+	4 Dynamic Mountains
+	4 Dynamic Jungle
+	4 UM01 — Flightlord of Aya Koan
+	4 UM01 — Mysterious Middleman
+	4 UM01 — Abusive Industrialist
+	4 UM01 — Ministry Shathasta
+	4 UM01 — Matriarch of Machines
+	4 UM01 — Priest of Entropy
+	4 UM01 — Overclocked Clockwork
+	4 UM01 — Streetsweeper's Salesman
+	4 UM01B — Ministry Margayod
+	4 UM01 — Consulting Guru
+	4 UW01
+	4 UW02
+	4 UW03
+	4 UW04
+	4 UW05
+	4 UW06
+	4 UW07
+	4 UW08
+	4 UW09
+	4 UW10
+	4 UW11
+	4 UU01
+	4 UU02
+	4 UU03
+	4 UU04
+	4 UU05
+	4 UU06
+	4 UU07
+	4 UU08
+	4 UU09
+	4 UU10
+	4 UU11
+	4 UB01
+	4 UB02
+	4 UB03
+	4 UB04
+	4 UB05
+	4 UB06
+	4 UB07
+	4 UB08
+	4 UB09
+	4 UB10
+	4 UB11
+	4 UR01
+	4 UR02
+	4 UR03
+	4 UR04
+	4 UR05
+	4 UR06
+	4 UR07
+	4 UR08
+	4 UR09
+	4 UR10
+	4 UR11
+	4 UG01
+	4 UG02
+	4 UG03
+	4 UG04
+	4 UG05
+	4 UG06
+	4 UG07
+	4 UG08
+	4 UG09
+	4 UG10
+	4 UG11
+	4 UW12
+	4 UU12
+	4 UB12
+	4 UR12
+	4 UG12
+	4 UW13
+	4 UU13
+	4 UB13
+	4 UR13
+	4 UG13
+[common(7)]
+	8 CW01 — Junior Party Member
+	8 CW02 — Lifecraft Heirloom
+	8 CW03 — Mirrormade Mobile
+	8 CW04 — Night Minister's Stalwart
+	8 CW05 — Ministry Intern
+	8 CW06 — Sleepless Lifecrafter
+	8 CW07 — Vamanah Ramparts
+	8 CW08 — Rally Coach
+	8 CW09 — Priest of the Incarnations
+	8 CW10 — Workshop Patron
+	8 CW11 — Patrician Machinist
+	8 CW12 — Engineered Almsmaker
+	8 CW13 — Restraint
+	8 CW14 — New Dawn Pamphlet
+	8 CW15 — Precision Reprisal
+	8 CW16 — Structural Redesign
+	8 CW17 — Synthetic Synergy
+	8 CW18 — Recall for Redesign
+	8 CU01 — Jalpari Envoy
+	8 CU02 — Nilah Seeker
+	8 CU03 — Overburdened Aerial
+	8 CU04 — Sarpah Outcast
+	8 CU05 — Route Mapper
+	8 CU06 — Joyous Aerosmith
+	8 CU07 — Jalpari Cityshell
+	8 CU08 — Skulking Aethervore
+	8 CU09 — Flowing Mobile
+	8 CU10 — Dazzling Wingsuit
+	8 CU11 — Thundershield
+	8 CU12 — Supply Sabotage
+	8 CU13 — Rapid Iteration
+	8 CU14 — Flash Refining
+	8 CU15 — Recognize Mistakes
+	8 CU16 — Observe the Cycle
+	8 CU17 — Crunch Time
+	8 CU18 — Lightning Prototyping
+	8 CB01 — Contract Alchemist
+	8 CB02 — Yaatra Guru
+	8 CB03 — Blood Driver
+	8 CB04 — Mandir Soulcutter
+	8 CB05 — Razorblade Mobile
+	8 CB06 — Juggernaut Armature
+	8 CB07 — Tolerance Tester
+	8 CB08 — Schematic Imp
+	8 CB09 — Schematic Evangel
+	8 CB10 — Pravah Blasphemy
+	8 CB11 — Vashaati's Dance
+	8 CB12 — Transcendant Second
+	8 CB13 — Unsettling Craft
+	8 CB14 — Unethical Experimentation
+	8 CB15 — Schematic Verse
+	8 CB16 — Circular Economics
+	8 CB17 — Greed of Ant Svayam
+	8 CB18 — Empty the Self
+	8 CR01 — Gremlin Mascot
+	8 CR02 — Dragchase Veteran
+	8 CR03 — Kammuni Incensed
+	8 CR04 — Minister's Bodyguard
+	8 CR05 — Rogue Refiner
+	8 CR06 — Raktunag Artist
+	8 CR07 — Self Igniting Mobile
+	8 CR08 — Storied Maulfist
+	8 CR09 — Parade Float
+	8 CR10 — Clever Drake
+	8 CR11 — Shock
+	8 CR12 — Imported Flowstone
+	8 CR13 — Backfire
+	8 CR14 — Thrill of Possibility
+	8 CR15 — Rage of the Forgotten
+	8 CR16 — Time to Quit
+	8 CR17 — Consign to Rubbish
+	8 CR18 — Citipati's Howl
+	8 CG01 — Tirahar Ancestor
+	8 CG02 — Ghanam Jal Cultivator
+	8 CG03 — Assimilated Orochi
+	8 CG04 — Entangled Wurm
+	8 CG05 — Tauroid Armature
+	8 CG06 — Well-oiled Waldo
+	8 CG07 — Servo Servicer
+	8 CG08 — Gilded Prizefighter
+	8 CG09 — Applied Kineticist
+	8 CG10 — Bronzecraft Mobile
+	8 CG11 — Windup Monstrosity
+	8 CG12 — Destructive Testing
+	8 CG13 — Lifecraft Reinforcement
+	8 CG14 — Cycle's End
+	8 CG15 — Cycles Beginning
+	8 CG16 — Peema Aetherscaping
+	8 CG17 — Polluting Demise
+	8 CG18 — Invasion Cleanup
+	8 Rail Station
+	8 Canal Extension
+	8 Aetherworks Outflow
+	8 Hiker's District
+	8 Ghirapur Parkland
+	8 CA01 — Workshop Recycler
+	8 CA02 — Scrap Pile
+	8 CA03 — Stylish Scarification
+	8 CA04 — Aya Koan Floret
+	8 CA05 — New Model Skiff
+	8 CA08 — Refinery Locomotive
+	8 CA07 — Pathfinding Compass
+	8 CA06 — Envoy's Assistant
+	8 CA10 — Automated Librarian
+	8 CA09 — Prototype Mech Suit
+	8 CA11 — Atriarch Automaton
+[foil(1)]
+	12 CW01 — Junior Party Member
+	12 CW02 — Lifecraft Heirloom
+	12 CW03 — Mirrormade Mobile
+	12 CW04 — Night Minister's Stalwart
+	12 CW05 — Ministry Intern
+	12 CW06 — Sleepless Lifecrafter
+	12 CW07 — Vamanah Ramparts
+	12 CW08 — Rally Coach
+	12 CW09 — Priest of the Incarnations
+	12 CW10 — Workshop Patron
+	12 CW11 — Patrician Machinist
+	12 CW12 — Engineered Almsmaker
+	12 CW13 — Restraint
+	12 CW14 — New Dawn Pamphlet
+	12 CW15 — Precision Reprisal
+	12 CW16 — Structural Redesign
+	12 CW17 — Synthetic Synergy
+	12 CW18 — Recall for Redesign
+	12 CU01 — Jalpari Envoy
+	12 CU02 — Nilah Seeker
+	12 CU03 — Overburdened Aerial
+	12 CU04 — Sarpah Outcast
+	12 CU05 — Route Mapper
+	12 CU06 — Joyous Aerosmith
+	12 CU07 — Jalpari Cityshell
+	12 CU08 — Skulking Aethervore
+	12 CU09 — Flowing Mobile
+	12 CU10 — Dazzling Wingsuit
+	12 CU11 — Thundershield
+	12 CU12 — Supply Sabotage
+	12 CU13 — Rapid Iteration
+	12 CU14 — Flash Refining
+	12 CU15 — Recognize Mistakes
+	12 CU16 — Observe the Cycle
+	12 CU17 — Crunch Time
+	12 CU18 — Lightning Prototyping
+	12 CB01 — Contract Alchemist
+	12 CB02 — Yaatra Guru
+	12 CB03 — Blood Driver
+	12 CB04 — Mandir Soulcutter
+	12 CB05 — Razorblade Mobile
+	12 CB06 — Juggernaut Armature
+	12 CB07 — Tolerance Tester
+	12 CB08 — Schematic Imp
+	12 CB09 — Schematic Evangel
+	12 CB10 — Pravah Blasphemy
+	12 CB11 — Vashaati's Dance
+	12 CB12 — Transcendant Second
+	12 CB13 — Unsettling Craft
+	12 CB14 — Unethical Experimentation
+	12 CB15 — Schematic Verse
+	12 CB16 — Circular Economics
+	12 CB17 — Greed of Ant Svayam
+	12 CB18 — Empty the Self
+	12 CR01 — Gremlin Mascot
+	12 CR02 — Dragchase Veteran
+	12 CR03 — Kammuni Incensed
+	12 CR04 — Minister's Bodyguard
+	12 CR05 — Rogue Refiner
+	12 CR06 — Raktunag Artist
+	12 CR07 — Self Igniting Mobile
+	12 CR08 — Storied Maulfist
+	12 CR09 — Parade Float
+	12 CR10 — Clever Drake
+	12 CR11 — Shock
+	12 CR12 — Imported Flowstone
+	12 CR13 — Backfire
+	12 CR14 — Thrill of Possibility
+	12 CR15 — Rage of the Forgotten
+	12 CR16 — Time to Quit
+	12 CR17 — Consign to Rubbish
+	12 CR18 — Citipati's Howl
+	12 CG01 — Tirahar Ancestor
+	12 CG02 — Ghanam Jal Cultivator
+	12 CG03 — Assimilated Orochi
+	12 CG04 — Entangled Wurm
+	12 CG05 — Tauroid Armature
+	12 CG06 — Well-oiled Waldo
+	12 CG07 — Servo Servicer
+	12 CG08 — Gilded Prizefighter
+	12 CG09 — Applied Kineticist
+	12 CG10 — Bronzecraft Mobile
+	12 CG11 — Windup Monstrosity
+	12 CG12 — Destructive Testing
+	12 CG13 — Lifecraft Reinforcement
+	12 CG14 — Cycle's End
+	12 CG15 — Cycles Beginning
+	12 CG16 — Peema Aetherscaping
+	12 CG17 — Polluting Demise
+	12 CG18 — Invasion Cleanup
+	12 Rail Station
+	12 Canal Extension
+	12 Aetherworks Outflow
+	12 Hiker's District
+	12 Ghirapur Parkland
+	6 Dynamic Steppe
+	6 Dynamic Tidepools
+	6 Dynamic Marsh
+	6 Dynamic Mountains
+	6 Dynamic Jungle
+	12 CA01 — Workshop Recycler
+	12 CA02 — Scrap Pile
+	12 CA03 — Stylish Scarification
+	12 CA04 — Aya Koan Floret
+	12 CA05 — New Model Skiff
+	12 CA08 — Refinery Locomotive
+	12 CA07 — Pathfinding Compass
+	12 CA06 — Envoy's Assistant
+	12 CA10 — Automated Librarian
+	12 CA09 — Prototype Mech Suit
+	12 CA11 — Atriarch Automaton
+	2 RC01 — Dosraaj, Prince of Seconds
+	1 RC02 — Teldrashi, Gutter Alchemist
+	2 RW01 — Austerity Advocate
+	6 UM01 — Flightlord of Aya Koan
+	6 UM01 — Mysterious Middleman
+	6 UM01 — Abusive Industrialist
+	6 UM01 — Ministry Shathasta
+	6 UM01 — Matriarch of Machines
+	6 UM01 — Priest of Entropy
+	6 UM01 — Overclocked Clockwork
+	6 UM01 — Streetsweeper's Salesman
+	6 UM01B — Ministry Margayod
+	6 UM01 — Consulting Guru
+	1 MA01 — Aya Koan Prime
+	6 UW01
+	6 UW02
+	6 UW03
+	6 UW04
+	6 UW05
+	6 UW06
+	6 UW07
+	6 UW08
+	6 UW09
+	6 UW10
+	6 UW11
+	6 UU01
+	6 UU02
+	6 UU03
+	6 UU04
+	6 UU05
+	6 UU06
+	6 UU07
+	6 UU08
+	6 UU09
+	6 UU10
+	6 UU11
+	6 UB01
+	6 UB02
+	6 UB03
+	6 UB04
+	6 UB05
+	6 UB06
+	6 UB07
+	6 UB08
+	6 UB09
+	6 UB10
+	6 UB11
+	6 UR01
+	6 UR02
+	6 UR03
+	6 UR04
+	6 UR05
+	6 UR06
+	6 UR07
+	6 UR08
+	6 UR09
+	6 UR10
+	6 UR11
+	6 UG01
+	6 UG02
+	6 UG03
+	6 UG04
+	6 UG05
+	6 UG06
+	6 UG07
+	6 UG08
+	6 UG09
+	6 UG10
+	6 UG11
+	6 UW12
+	6 UU12
+	6 UB12
+	6 UR12
+	6 UG12
+	6 UW13
+	6 UU13
+	6 UB13
+	6 UR13
+	6 UG13
+[wildcard(1)]
+	6 CW01 — Junior Party Member
+	6 CW02 — Lifecraft Heirloom
+	6 CW03 — Mirrormade Mobile
+	6 CW04 — Night Minister's Stalwart
+	6 CW05 — Ministry Intern
+	6 CW06 — Sleepless Lifecrafter
+	6 CW07 — Vamanah Ramparts
+	6 CW08 — Rally Coach
+	6 CW09 — Priest of the Incarnations
+	6 CW10 — Workshop Patron
+	6 CW11 — Patrician Machinist
+	6 CW12 — Engineered Almsmaker
+	6 CW13 — Restraint
+	6 CW14 — New Dawn Pamphlet
+	6 CW15 — Precision Reprisal
+	6 CW16 — Structural Redesign
+	6 CW17 — Synthetic Synergy
+	6 CW18 — Recall for Redesign
+	6 CU01 — Jalpari Envoy
+	6 CU02 — Nilah Seeker
+	6 CU03 — Overburdened Aerial
+	6 CU04 — Sarpah Outcast
+	6 CU05 — Route Mapper
+	6 CU06 — Joyous Aerosmith
+	6 CU07 — Jalpari Cityshell
+	6 CU08 — Skulking Aethervore
+	6 CU09 — Flowing Mobile
+	6 CU10 — Dazzling Wingsuit
+	6 CU11 — Thundershield
+	6 CU12 — Supply Sabotage
+	6 CU13 — Rapid Iteration
+	6 CU14 — Flash Refining
+	6 CU15 — Recognize Mistakes
+	6 CU16 — Observe the Cycle
+	6 CU17 — Crunch Time
+	6 CU18 — Lightning Prototyping
+	6 CB01 — Contract Alchemist
+	6 CB02 — Yaatra Guru
+	6 CB03 — Blood Driver
+	6 CB04 — Mandir Soulcutter
+	6 CB05 — Razorblade Mobile
+	6 CB06 — Juggernaut Armature
+	6 CB07 — Tolerance Tester
+	6 CB08 — Schematic Imp
+	6 CB09 — Schematic Evangel
+	6 CB10 — Pravah Blasphemy
+	6 CB11 — Vashaati's Dance
+	6 CB12 — Transcendant Second
+	6 CB13 — Unsettling Craft
+	6 CB14 — Unethical Experimentation
+	6 CB15 — Schematic Verse
+	6 CB16 — Circular Economics
+	6 CB17 — Greed of Ant Svayam
+	6 CB18 — Empty the Self
+	6 CR01 — Gremlin Mascot
+	6 CR02 — Dragchase Veteran
+	6 CR03 — Kammuni Incensed
+	6 CR04 — Minister's Bodyguard
+	6 CR05 — Rogue Refiner
+	6 CR06 — Raktunag Artist
+	6 CR07 — Self Igniting Mobile
+	6 CR08 — Storied Maulfist
+	6 CR09 — Parade Float
+	6 CR10 — Clever Drake
+	6 CR11 — Shock
+	6 CR12 — Imported Flowstone
+	6 CR13 — Backfire
+	6 CR14 — Thrill of Possibility
+	6 CR15 — Rage of the Forgotten
+	6 CR16 — Time to Quit
+	6 CR17 — Consign to Rubbish
+	6 CR18 — Citipati's Howl
+	6 CG01 — Tirahar Ancestor
+	6 CG02 — Ghanam Jal Cultivator
+	6 CG03 — Assimilated Orochi
+	6 CG04 — Entangled Wurm
+	6 CG05 — Tauroid Armature
+	6 CG06 — Well-oiled Waldo
+	6 CG07 — Servo Servicer
+	6 CG08 — Gilded Prizefighter
+	6 CG09 — Applied Kineticist
+	6 CG10 — Bronzecraft Mobile
+	6 CG11 — Windup Monstrosity
+	6 CG12 — Destructive Testing
+	6 CG13 — Lifecraft Reinforcement
+	6 CG14 — Cycle's End
+	6 CG15 — Cycles Beginning
+	6 CG16 — Peema Aetherscaping
+	6 CG17 — Polluting Demise
+	6 CG18 — Invasion Cleanup
+	6 Rail Station
+	6 Canal Extension
+	6 Aetherworks Outflow
+	6 Hiker's District
+	6 Ghirapur Parkland
+	15 Dynamic Steppe
+	15 Dynamic Tidepools
+	15 Dynamic Marsh
+	15 Dynamic Mountains
+	15 Dynamic Jungle
+	6 CA01 — Workshop Recycler
+	6 CA02 — Scrap Pile
+	6 CA03 — Stylish Scarification
+	6 CA04 — Aya Koan Floret
+	6 CA05 — New Model Skiff
+	6 CA08 — Refinery Locomotive
+	6 CA07 — Pathfinding Compass
+	6 CA06 — Envoy's Assistant
+	6 CA10 — Automated Librarian
+	6 CA09 — Prototype Mech Suit
+	6 CA11 — Atriarch Automaton
+	7 RC01 — Dosraaj, Prince of Seconds
+	4 RC02 — Teldrashi, Gutter Alchemist
+	7 RW01 — Austerity Advocate
+	15 UM01 — Flightlord of Aya Koan
+	15 UM01 — Mysterious Middleman
+	15 UM01 — Abusive Industrialist
+	15 UM01 — Ministry Shathasta
+	15 UM01 — Matriarch of Machines
+	15 UM01 — Priest of Entropy
+	15 UM01 — Overclocked Clockwork
+	15 UM01 — Streetsweeper's Salesman
+	15 UM01B — Ministry Margayod
+	15 UM01 — Consulting Guru
+	4 MA01 — Aya Koan Prime
+	15 UW01
+	15 UW02
+	15 UW03
+	15 UW04
+	15 UW05
+	15 UW06
+	15 UW07
+	15 UW08
+	15 UW09
+	15 UW10
+	15 UW11
+	15 UU01
+	15 UU02
+	15 UU03
+	15 UU04
+	15 UU05
+	15 UU06
+	15 UU07
+	15 UU08
+	15 UU09
+	15 UU10
+	15 UU11
+	15 UB01
+	15 UB02
+	15 UB03
+	15 UB04
+	15 UB05
+	15 UB06
+	15 UB07
+	15 UB08
+	15 UB09
+	15 UB10
+	15 UB11
+	15 UR01
+	15 UR02
+	15 UR03
+	15 UR04
+	15 UR05
+	15 UR06
+	15 UR07
+	15 UR08
+	15 UR09
+	15 UR10
+	15 UR11
+	15 UG01
+	15 UG02
+	15 UG03
+	15 UG04
+	15 UG05
+	15 UG06
+	15 UG07
+	15 UG08
+	15 UG09
+	15 UG10
+	15 UG11
+	15 UW12
+	15 UU12
+	15 UB12
+	15 UR12
+	15 UG12
+	15 UW13
+	15 UU13
+	15 UB13
+	15 UR13
+	15 UG13

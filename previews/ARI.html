@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="/sets/ARI-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>ARI visual preview</title>
+	<style>
+		@font-face {
+			font-family: Beleren;
+			src: url('/resources/beleren.ttf');
+		}
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('/img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('/img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 80px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('/img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('/img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.dropdown {
+			background: rgba(23, 23, 23, 0.8);
+			border-radius: 8px;
+			position: absolute;
+			left: 10%;
+			width: fit-content;
+			margin: 20px 0;
+			padding: 5px 0;
+			display: flex;
+			flex-direction: column;
+			z-index: 3;
+		}
+		.dropdown .set-bar {
+			font-family: Beleren;
+			font-size: 20px;
+			text-decoration: none;
+			color: #e3e3e3;
+			display: flex;
+			gap: 10px;
+			align-items: center;
+			padding: 0 12px;
+			margin: 5px;
+		}
+		.dropdown .set-bar:hover {
+			background: rgba(163, 163, 163, 0.5);
+			color: #f3f3f3;
+		}
+		.dropdown .set-bar img {
+			width: 32px;
+		}
+		.dropdown .inactive {
+			height: 0px;
+			overflow: hidden;
+			margin: 0px 5px;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		.addenda-container {
+			text-align: center;
+			width: fit-content;
+			max-width: 1200px;
+			padding: 0 5%;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/ARI-files/logo.png" />
+	<img class="preload-hidden" src="/sets/ARI-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	
+		<a class="set-bar" href="ARI"><img src="/sets/ARI-files/icon.png"></a>
+	
+		</div>
+		<div class="banner">
+		<img class="logo" src="/sets/ARI-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+					<div class="container"><img alt="/sets\ARI-files\img\37_RW01 — Austerity Advocate.jpg" id="37_RW01 — Austerity Advocate" data-flag="@X" onclick="openSidebar('37_RW01 — Austerity Advocate',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\60_UU01.jpg" id="60_UU01" data-flag="@X" onclick="openSidebar('60_UU01',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\89_UB01.jpg" id="89_UB01" data-flag="@X" onclick="openSidebar('89_UB01',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\118_UR01.jpg" id="118_UR01" data-flag="@X" onclick="openSidebar('118_UR01',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\147_UG01.jpg" id="147_UG01" data-flag="@X" onclick="openSidebar('147_UG01',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\10_UW02.jpg" id="10_UW02" data-flag="@X" onclick="openSidebar('10_UW02',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\61_UU02.jpg" id="61_UU02" data-flag="@X" onclick="openSidebar('61_UU02',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\90_UB02.jpg" id="90_UB02" data-flag="@X" onclick="openSidebar('90_UB02',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\119_UR02.jpg" id="119_UR02" data-flag="@X" onclick="openSidebar('119_UR02',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\148_UG02.jpg" id="148_UG02" data-flag="@X" onclick="openSidebar('148_UG02',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\11_UW03.jpg" id="11_UW03" data-flag="@X" onclick="openSidebar('11_UW03',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\62_UU03.jpg" id="62_UU03" data-flag="@X" onclick="openSidebar('62_UU03',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\91_UB03.jpg" id="91_UB03" data-flag="@X" onclick="openSidebar('91_UB03',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\120_UR03.jpg" id="120_UR03" data-flag="@X" onclick="openSidebar('120_UR03',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\149_UG03.jpg" id="149_UG03" data-flag="@X" onclick="openSidebar('149_UG03',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\12_UW04.jpg" id="12_UW04" data-flag="@X" onclick="openSidebar('12_UW04',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\63_UU04.jpg" id="63_UU04" data-flag="@X" onclick="openSidebar('63_UU04',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\92_UB04.jpg" id="92_UB04" data-flag="@X" onclick="openSidebar('92_UB04',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\121_UR04.jpg" id="121_UR04" data-flag="@X" onclick="openSidebar('121_UR04',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\150_UG04.jpg" id="150_UG04" data-flag="@X" onclick="openSidebar('150_UG04',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\13_UW05.jpg" id="13_UW05" data-flag="@X" onclick="openSidebar('13_UW05',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\64_UU05.jpg" id="64_UU05" data-flag="@X" onclick="openSidebar('64_UU05',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\93_UB05.jpg" id="93_UB05" data-flag="@X" onclick="openSidebar('93_UB05',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\122_UR05.jpg" id="122_UR05" data-flag="@X" onclick="openSidebar('122_UR05',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\151_UG05.jpg" id="151_UG05" data-flag="@X" onclick="openSidebar('151_UG05',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\14_UW06.jpg" id="14_UW06" data-flag="@X" onclick="openSidebar('14_UW06',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\65_UU06.jpg" id="65_UU06" data-flag="@X" onclick="openSidebar('65_UU06',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\94_UB06.jpg" id="94_UB06" data-flag="@X" onclick="openSidebar('94_UB06',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\123_UR06.jpg" id="123_UR06" data-flag="@X" onclick="openSidebar('123_UR06',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\152_UG06.jpg" id="152_UG06" data-flag="@X" onclick="openSidebar('152_UG06',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\15_UW07.jpg" id="15_UW07" data-flag="@X" onclick="openSidebar('15_UW07',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\66_UU07.jpg" id="66_UU07" data-flag="@X" onclick="openSidebar('66_UU07',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\95_UB07.jpg" id="95_UB07" data-flag="@X" onclick="openSidebar('95_UB07',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\124_UR07.jpg" id="124_UR07" data-flag="@X" onclick="openSidebar('124_UR07',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\153_UG07.jpg" id="153_UG07" data-flag="@X" onclick="openSidebar('153_UG07',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\16_UW08.jpg" id="16_UW08" data-flag="@X" onclick="openSidebar('16_UW08',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\67_UU08.jpg" id="67_UU08" data-flag="@X" onclick="openSidebar('67_UU08',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\96_UB08.jpg" id="96_UB08" data-flag="@X" onclick="openSidebar('96_UB08',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\125_UR08.jpg" id="125_UR08" data-flag="@X" onclick="openSidebar('125_UR08',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\154_UG08.jpg" id="154_UG08" data-flag="@X" onclick="openSidebar('154_UG08',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\38_UW01.jpg" id="38_UW01" data-flag="@X" onclick="openSidebar('38_UW01',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\68_UU09.jpg" id="68_UU09" data-flag="@X" onclick="openSidebar('68_UU09',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\97_UB09.jpg" id="97_UB09" data-flag="@X" onclick="openSidebar('97_UB09',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\126_UR09.jpg" id="126_UR09" data-flag="@X" onclick="openSidebar('126_UR09',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\155_UG09.jpg" id="155_UG09" data-flag="@X" onclick="openSidebar('155_UG09',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\39_UW09.jpg" id="39_UW09" data-flag="@X" onclick="openSidebar('39_UW09',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\69_UU10.jpg" id="69_UU10" data-flag="@X" onclick="openSidebar('69_UU10',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\98_UB10.jpg" id="98_UB10" data-flag="@X" onclick="openSidebar('98_UB10',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\127_UR10.jpg" id="127_UR10" data-flag="@X" onclick="openSidebar('127_UR10',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\156_UG10.jpg" id="156_UG10" data-flag="@X" onclick="openSidebar('156_UG10',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\40_UW10.jpg" id="40_UW10" data-flag="@X" onclick="openSidebar('40_UW10',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\70_UU11.jpg" id="70_UU11" data-flag="@X" onclick="openSidebar('70_UU11',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\99_UB11.jpg" id="99_UB11" data-flag="@X" onclick="openSidebar('99_UB11',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\128_UR11.jpg" id="128_UR11" data-flag="@X" onclick="openSidebar('128_UR11',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\157_UG11.jpg" id="157_UG11" data-flag="@X" onclick="openSidebar('157_UG11',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\41_UW11.jpg" id="41_UW11" data-flag="@X" onclick="openSidebar('41_UW11',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\42_CU01 — Jalpari Envoy.jpg" id="42_CU01 — Jalpari Envoy" data-flag="@X" onclick="openSidebar('42_CU01 — Jalpari Envoy',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\71_CB01 — Contract Alchemist.jpg" id="71_CB01 — Contract Alchemist" data-flag="@X" onclick="openSidebar('71_CB01 — Contract Alchemist',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\100_CR01 — Gremlin Mascot.jpg" id="100_CR01 — Gremlin Mascot" data-flag="@X" onclick="openSidebar('100_CR01 — Gremlin Mascot',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\129_CG01 — Tirahar Ancestor.jpg" id="129_CG01 — Tirahar Ancestor" data-flag="@X" onclick="openSidebar('129_CG01 — Tirahar Ancestor',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\19_CW01 — Junior Party Member.jpg" id="19_CW01 — Junior Party Member" data-flag="@X" onclick="openSidebar('19_CW01 — Junior Party Member',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\43_CU02 — Nilah Seeker.jpg" id="43_CU02 — Nilah Seeker" data-flag="@X" onclick="openSidebar('43_CU02 — Nilah Seeker',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\72_CB02 — Yaatra Guru.jpg" id="72_CB02 — Yaatra Guru" data-flag="@X" onclick="openSidebar('72_CB02 — Yaatra Guru',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\101_CR02 — Dragchase Veteran.jpg" id="101_CR02 — Dragchase Veteran" data-flag="@X" onclick="openSidebar('101_CR02 — Dragchase Veteran',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\130_CG02 — Ghanam Jal Cultivator.jpg" id="130_CG02 — Ghanam Jal Cultivator" data-flag="@X" onclick="openSidebar('130_CG02 — Ghanam Jal Cultivator',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\20_CW02 — Lifecraft Heirloom.jpg" id="20_CW02 — Lifecraft Heirloom" data-flag="@X" onclick="openSidebar('20_CW02 — Lifecraft Heirloom',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\44_CU03 — Overburdened Aerial.jpg" id="44_CU03 — Overburdened Aerial" data-flag="@X" onclick="openSidebar('44_CU03 — Overburdened Aerial',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\73_CB03 — Blood Driver.jpg" id="73_CB03 — Blood Driver" data-flag="@X" onclick="openSidebar('73_CB03 — Blood Driver',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\102_CR03 — Kammuni Incensed.jpg" id="102_CR03 — Kammuni Incensed" data-flag="@X" onclick="openSidebar('102_CR03 — Kammuni Incensed',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\131_CG03 — Assimilated Orochi.jpg" id="131_CG03 — Assimilated Orochi" data-flag="@X" onclick="openSidebar('131_CG03 — Assimilated Orochi',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\21_CW03 — Mirrormade Mobile.jpg" id="21_CW03 — Mirrormade Mobile" data-flag="@X" onclick="openSidebar('21_CW03 — Mirrormade Mobile',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\45_CU04 — Sarpah Outcast.jpg" id="45_CU04 — Sarpah Outcast" data-flag="@X" onclick="openSidebar('45_CU04 — Sarpah Outcast',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\74_CB04 — Mandir Soulcutter.jpg" id="74_CB04 — Mandir Soulcutter" data-flag="@X" onclick="openSidebar('74_CB04 — Mandir Soulcutter',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\103_CR04 — Minister's Bodyguard.jpg" id="103_CR04 — Ministers Bodyguard" data-flag="@X" onclick="openSidebar('103_CR04 — Ministers Bodyguard',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\132_CG04 — Entangled Wurm.jpg" id="132_CG04 — Entangled Wurm" data-flag="@X" onclick="openSidebar('132_CG04 — Entangled Wurm',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\22_CW04 — Night Minister's Stalwart.jpg" id="22_CW04 — Night Ministers Stalwart" data-flag="@X" onclick="openSidebar('22_CW04 — Night Ministers Stalwart',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\46_CU05 — Route Mapper.jpg" id="46_CU05 — Route Mapper" data-flag="@X" onclick="openSidebar('46_CU05 — Route Mapper',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\75_CB05 — Razorblade Mobile.jpg" id="75_CB05 — Razorblade Mobile" data-flag="@X" onclick="openSidebar('75_CB05 — Razorblade Mobile',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\104_CR05 — Rogue Refiner.jpg" id="104_CR05 — Rogue Refiner" data-flag="@X" onclick="openSidebar('104_CR05 — Rogue Refiner',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\133_CG05 — Tauroid Armature.jpg" id="133_CG05 — Tauroid Armature" data-flag="@X" onclick="openSidebar('133_CG05 — Tauroid Armature',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\23_CW05 — Ministry Intern.jpg" id="23_CW05 — Ministry Intern" data-flag="@X" onclick="openSidebar('23_CW05 — Ministry Intern',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\47_CU06 — Joyous Aerosmith.jpg" id="47_CU06 — Joyous Aerosmith" data-flag="@X" onclick="openSidebar('47_CU06 — Joyous Aerosmith',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\76_CB06 — Juggernaut Armature.jpg" id="76_CB06 — Juggernaut Armature" data-flag="@X" onclick="openSidebar('76_CB06 — Juggernaut Armature',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\105_CR06 — Raktunag Artist.jpg" id="105_CR06 — Raktunag Artist" data-flag="@X" onclick="openSidebar('105_CR06 — Raktunag Artist',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\134_CG06 — Well-oiled Waldo.jpg" id="134_CG06 — Well-oiled Waldo" data-flag="@X" onclick="openSidebar('134_CG06 — Well-oiled Waldo',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\24_CW06 — Sleepless Lifecrafter.jpg" id="24_CW06 — Sleepless Lifecrafter" data-flag="@X" onclick="openSidebar('24_CW06 — Sleepless Lifecrafter',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\48_CU07 — Jalpari Cityshell.jpg" id="48_CU07 — Jalpari Cityshell" data-flag="@X" onclick="openSidebar('48_CU07 — Jalpari Cityshell',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\77_CB07 — Tolerance Tester.jpg" id="77_CB07 — Tolerance Tester" data-flag="@X" onclick="openSidebar('77_CB07 — Tolerance Tester',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\106_CR07 — Self Igniting Mobile.jpg" id="106_CR07 — Self Igniting Mobile" data-flag="@X" onclick="openSidebar('106_CR07 — Self Igniting Mobile',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\135_CG07 — Servo Servicer.jpg" id="135_CG07 — Servo Servicer" data-flag="@X" onclick="openSidebar('135_CG07 — Servo Servicer',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\25_CW07 — Vamanah Ramparts.jpg" id="25_CW07 — Vamanah Ramparts" data-flag="@X" onclick="openSidebar('25_CW07 — Vamanah Ramparts',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\49_CU08 — Skulking Aethervore.jpg" id="49_CU08 — Skulking Aethervore" data-flag="@X" onclick="openSidebar('49_CU08 — Skulking Aethervore',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\78_CB08 — Schematic Imp.jpg" id="78_CB08 — Schematic Imp" data-flag="@X" onclick="openSidebar('78_CB08 — Schematic Imp',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\107_CR08 — Storied Maulfist.jpg" id="107_CR08 — Storied Maulfist" data-flag="@X" onclick="openSidebar('107_CR08 — Storied Maulfist',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\136_CG08 — Gilded Prizefighter.jpg" id="136_CG08 — Gilded Prizefighter" data-flag="@X" onclick="openSidebar('136_CG08 — Gilded Prizefighter',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\26_CW08 — Rally Coach.jpg" id="26_CW08 — Rally Coach" data-flag="@X" onclick="openSidebar('26_CW08 — Rally Coach',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\50_CU09 — Flowing Mobile.jpg" id="50_CU09 — Flowing Mobile" data-flag="@X" onclick="openSidebar('50_CU09 — Flowing Mobile',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\79_CB09 — Schematic Evangel.jpg" id="79_CB09 — Schematic Evangel" data-flag="@X" onclick="openSidebar('79_CB09 — Schematic Evangel',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\108_CR09 — Parade Float.jpg" id="108_CR09 — Parade Float" data-flag="@X" onclick="openSidebar('108_CR09 — Parade Float',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\137_CG09 — Applied Kineticist.jpg" id="137_CG09 — Applied Kineticist" data-flag="@X" onclick="openSidebar('137_CG09 — Applied Kineticist',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\27_CW09 — Priest of the Incarnations.jpg" id="27_CW09 — Priest of the Incarnations" data-flag="@X" onclick="openSidebar('27_CW09 — Priest of the Incarnations',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\51_CU10 — Dazzling Wingsuit.jpg" id="51_CU10 — Dazzling Wingsuit" data-flag="@X" onclick="openSidebar('51_CU10 — Dazzling Wingsuit',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\80_CB10 — Pravah Blasphemy.jpg" id="80_CB10 — Pravah Blasphemy" data-flag="@X" onclick="openSidebar('80_CB10 — Pravah Blasphemy',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\109_CR10 — Clever Drake.jpg" id="109_CR10 — Clever Drake" data-flag="@X" onclick="openSidebar('109_CR10 — Clever Drake',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\138_CG10 — Bronzecraft Mobile.jpg" id="138_CG10 — Bronzecraft Mobile" data-flag="@X" onclick="openSidebar('138_CG10 — Bronzecraft Mobile',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\28_CW10 — Workshop Patron.jpg" id="28_CW10 — Workshop Patron" data-flag="@X" onclick="openSidebar('28_CW10 — Workshop Patron',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\52_CU11 — Thundershield.jpg" id="52_CU11 — Thundershield" data-flag="@X" onclick="openSidebar('52_CU11 — Thundershield',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\81_CB11 — Vashaati's Dance.jpg" id="81_CB11 — Vashaatis Dance" data-flag="@X" onclick="openSidebar('81_CB11 — Vashaatis Dance',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\110_CR11 — Shock.jpg" id="110_CR11 — Shock" data-flag="@X" onclick="openSidebar('110_CR11 — Shock',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\139_CG11 — Windup Monstrosity.jpg" id="139_CG11 — Windup Monstrosity" data-flag="@X" onclick="openSidebar('139_CG11 — Windup Monstrosity',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\29_CW11 — Patrician Machinist.jpg" id="29_CW11 — Patrician Machinist" data-flag="@X" onclick="openSidebar('29_CW11 — Patrician Machinist',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\53_CU12 — Supply Sabotage.jpg" id="53_CU12 — Supply Sabotage" data-flag="@X" onclick="openSidebar('53_CU12 — Supply Sabotage',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\82_CB12 — Transcendant Second.jpg" id="82_CB12 — Transcendant Second" data-flag="@X" onclick="openSidebar('82_CB12 — Transcendant Second',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\111_CR12 — Imported Flowstone.jpg" id="111_CR12 — Imported Flowstone" data-flag="@X" onclick="openSidebar('111_CR12 — Imported Flowstone',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\140_CG12 — Destructive Testing.jpg" id="140_CG12 — Destructive Testing" data-flag="@X" onclick="openSidebar('140_CG12 — Destructive Testing',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\30_CW12 — Engineered Almsmaker.jpg" id="30_CW12 — Engineered Almsmaker" data-flag="@X" onclick="openSidebar('30_CW12 — Engineered Almsmaker',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\54_CU13 — Rapid Iteration.jpg" id="54_CU13 — Rapid Iteration" data-flag="@X" onclick="openSidebar('54_CU13 — Rapid Iteration',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\83_CB13 — Unsettling Craft.jpg" id="83_CB13 — Unsettling Craft" data-flag="@X" onclick="openSidebar('83_CB13 — Unsettling Craft',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\112_CR13 — Backfire.jpg" id="112_CR13 — Backfire" data-flag="@X" onclick="openSidebar('112_CR13 — Backfire',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\141_CG13 — Lifecraft Reinforcement.jpg" id="141_CG13 — Lifecraft Reinforcement" data-flag="@X" onclick="openSidebar('141_CG13 — Lifecraft Reinforcement',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\31_CW13 — Restraint.jpg" id="31_CW13 — Restraint" data-flag="@X" onclick="openSidebar('31_CW13 — Restraint',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\55_CU14 — Flash Refining.jpg" id="55_CU14 — Flash Refining" data-flag="@X" onclick="openSidebar('55_CU14 — Flash Refining',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\84_CB14 — Unethical Experimentation.jpg" id="84_CB14 — Unethical Experimentation" data-flag="@X" onclick="openSidebar('84_CB14 — Unethical Experimentation',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\113_CR14 — Thrill of Possibility.jpg" id="113_CR14 — Thrill of Possibility" data-flag="@X" onclick="openSidebar('113_CR14 — Thrill of Possibility',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\142_CG14 — Cycle's End.jpg" id="142_CG14 — Cycles End" data-flag="@X" onclick="openSidebar('142_CG14 — Cycles End',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\32_CW14 — New Dawn Pamphlet.jpg" id="32_CW14 — New Dawn Pamphlet" data-flag="@X" onclick="openSidebar('32_CW14 — New Dawn Pamphlet',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\56_CU15 — Recognize Mistakes.jpg" id="56_CU15 — Recognize Mistakes" data-flag="@X" onclick="openSidebar('56_CU15 — Recognize Mistakes',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\85_CB15 — Schematic Verse.jpg" id="85_CB15 — Schematic Verse" data-flag="@X" onclick="openSidebar('85_CB15 — Schematic Verse',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\114_CR15 — Rage of the Forgotten.jpg" id="114_CR15 — Rage of the Forgotten" data-flag="@X" onclick="openSidebar('114_CR15 — Rage of the Forgotten',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\143_CG15 — Cycles Beginning.jpg" id="143_CG15 — Cycles Beginning" data-flag="@X" onclick="openSidebar('143_CG15 — Cycles Beginning',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\33_CW15 — Precision Reprisal.jpg" id="33_CW15 — Precision Reprisal" data-flag="@X" onclick="openSidebar('33_CW15 — Precision Reprisal',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\57_CU16 — Observe the Cycle.jpg" id="57_CU16 — Observe the Cycle" data-flag="@X" onclick="openSidebar('57_CU16 — Observe the Cycle',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\86_CB16 — Circular Economics.jpg" id="86_CB16 — Circular Economics" data-flag="@X" onclick="openSidebar('86_CB16 — Circular Economics',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\115_CR16 — Time to Quit.jpg" id="115_CR16 — Time to Quit" data-flag="@X" onclick="openSidebar('115_CR16 — Time to Quit',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\144_CG16 — Peema Aetherscaping.jpg" id="144_CG16 — Peema Aetherscaping" data-flag="@X" onclick="openSidebar('144_CG16 — Peema Aetherscaping',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\34_CW16 — Structural Redesign.jpg" id="34_CW16 — Structural Redesign" data-flag="@X" onclick="openSidebar('34_CW16 — Structural Redesign',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\58_CU17 — Crunch Time.jpg" id="58_CU17 — Crunch Time" data-flag="@X" onclick="openSidebar('58_CU17 — Crunch Time',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\87_CB17 — Greed of Ant Svayam.jpg" id="87_CB17 — Greed of Ant Svayam" data-flag="@X" onclick="openSidebar('87_CB17 — Greed of Ant Svayam',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\116_CR17 — Consign to Rubbish.jpg" id="116_CR17 — Consign to Rubbish" data-flag="@X" onclick="openSidebar('116_CR17 — Consign to Rubbish',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\145_CG17 — Polluting Demise.jpg" id="145_CG17 — Polluting Demise" data-flag="@X" onclick="openSidebar('145_CG17 — Polluting Demise',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\35_CW17 — Synthetic Synergy.jpg" id="35_CW17 — Synthetic Synergy" data-flag="@X" onclick="openSidebar('35_CW17 — Synthetic Synergy',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\59_CU18 — Lightning Prototyping.jpg" id="59_CU18 — Lightning Prototyping" data-flag="@X" onclick="openSidebar('59_CU18 — Lightning Prototyping',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\88_CB18 — Empty the Self.jpg" id="88_CB18 — Empty the Self" data-flag="@X" onclick="openSidebar('88_CB18 — Empty the Self',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\117_CR18 — Citipati's Howl.jpg" id="117_CR18 — Citipatis Howl" data-flag="@X" onclick="openSidebar('117_CR18 — Citipatis Howl',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\146_CG18 — Invasion Cleanup.jpg" id="146_CG18 — Invasion Cleanup" data-flag="@X" onclick="openSidebar('146_CG18 — Invasion Cleanup',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\36_CW18 — Recall for Redesign.jpg" id="36_CW18 — Recall for Redesign" data-flag="@X" onclick="openSidebar('36_CW18 — Recall for Redesign',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div id="gold" class="anchor"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\162_UM01 — Flightlord of Aya Koan.jpg" id="162_UM01 — Flightlord of Aya Koan" data-flag="@X" onclick="openSidebar('162_UM01 — Flightlord of Aya Koan',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\165_UM01 — Mysterious Middleman.jpg" id="165_UM01 — Mysterious Middleman" data-flag="@X" onclick="openSidebar('165_UM01 — Mysterious Middleman',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\160_UM01 — Abusive Industrialist.jpg" id="160_UM01 — Abusive Industrialist" data-flag="@X" onclick="openSidebar('160_UM01 — Abusive Industrialist',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\164_UM01 — Ministry Shathasta.jpg" id="164_UM01 — Ministry Shathasta" data-flag="@X" onclick="openSidebar('164_UM01 — Ministry Shathasta',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\163_UM01 — Matriarch of Machines.jpg" id="163_UM01 — Matriarch of Machines" data-flag="@X" onclick="openSidebar('163_UM01 — Matriarch of Machines',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\158_RC01 — Dosraaj, Prince of Seconds.jpg" id="158_RC01 — Dosraaj, Prince of Seconds" data-flag="@X" onclick="openSidebar('158_RC01 — Dosraaj, Prince of Seconds',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\166_UM01 — Overclocked Clockwork.jpg" id="166_UM01 — Overclocked Clockwork" data-flag="@X" onclick="openSidebar('166_UM01 — Overclocked Clockwork',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\168_UM01 — Streetsweeper's Salesman.jpg" id="168_UM01 — Streetsweepers Salesman" data-flag="@X" onclick="openSidebar('168_UM01 — Streetsweepers Salesman',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\169_UM01B — Ministry Margayod.jpg" id="169_UM01B — Ministry Margayod" data-flag="@X" onclick="openSidebar('169_UM01B — Ministry Margayod',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\161_UM01 — Consulting Guru.jpg" id="161_UM01 — Consulting Guru" data-flag="@X" onclick="openSidebar('161_UM01 — Consulting Guru',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\167_UM01 — Priest of Entropy.jpg" id="167_UM01 — Priest of Entropy" data-flag="@X" onclick="openSidebar('167_UM01 — Priest of Entropy',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\159_RC02 — Teldrashi, Gutter Alchemist.jpg" id="159_RC02 — Teldrashi, Gutter Alchemist" data-flag="@X" onclick="openSidebar('159_RC02 — Teldrashi, Gutter Alchemist',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div id="colorless" class="anchor"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\1_MA01 — Aya Koan Prime.jpg" id="1_MA01 — Aya Koan Prime" data-flag="@X" onclick="openSidebar('1_MA01 — Aya Koan Prime',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\2_UB12.jpg" id="2_UB12" data-flag="@X" onclick="openSidebar('2_UB12',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\3_UB13.jpg" id="3_UB13" data-flag="@X" onclick="openSidebar('3_UB13',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\4_UG12.jpg" id="4_UG12" data-flag="@X" onclick="openSidebar('4_UG12',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\5_UG13.jpg" id="5_UG13" data-flag="@X" onclick="openSidebar('5_UG13',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\6_UR12.jpg" id="6_UR12" data-flag="@X" onclick="openSidebar('6_UR12',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\7_UR13.jpg" id="7_UR13" data-flag="@X" onclick="openSidebar('7_UR13',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\8_UU12.jpg" id="8_UU12" data-flag="@X" onclick="openSidebar('8_UU12',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\9_UU13.jpg" id="9_UU13" data-flag="@X" onclick="openSidebar('9_UU13',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\17_UW12.jpg" id="17_UW12" data-flag="@X" onclick="openSidebar('17_UW12',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\18_UW13.jpg" id="18_UW13" data-flag="@X" onclick="openSidebar('18_UW13',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\170_CA01 — Workshop Recycler.jpg" id="170_CA01 — Workshop Recycler" data-flag="@X" onclick="openSidebar('170_CA01 — Workshop Recycler',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\171_CA02 — Scrap Pile.jpg" id="171_CA02 — Scrap Pile" data-flag="@X" onclick="openSidebar('171_CA02 — Scrap Pile',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\172_CA03 — Stylish Scarification.jpg" id="172_CA03 — Stylish Scarification" data-flag="@X" onclick="openSidebar('172_CA03 — Stylish Scarification',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\173_CA04 — Aya Koan Floret.jpg" id="173_CA04 — Aya Koan Floret" data-flag="@X" onclick="openSidebar('173_CA04 — Aya Koan Floret',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\174_CA05 — New Model Skiff.jpg" id="174_CA05 — New Model Skiff" data-flag="@X" onclick="openSidebar('174_CA05 — New Model Skiff',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\175_CA06 — Envoy's Assistant.jpg" id="175_CA06 — Envoys Assistant" data-flag="@X" onclick="openSidebar('175_CA06 — Envoys Assistant',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\176_CA07 — Pathfinding Compass.jpg" id="176_CA07 — Pathfinding Compass" data-flag="@X" onclick="openSidebar('176_CA07 — Pathfinding Compass',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\177_CA08 — Refinery Locomotive.jpg" id="177_CA08 — Refinery Locomotive" data-flag="@X" onclick="openSidebar('177_CA08 — Refinery Locomotive',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\178_CA09 — Prototype Mech Suit.jpg" id="178_CA09 — Prototype Mech Suit" data-flag="@X" onclick="openSidebar('178_CA09 — Prototype Mech Suit',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\179_CA10 — Automated Librarian.jpg" id="179_CA10 — Automated Librarian" data-flag="@X" onclick="openSidebar('179_CA10 — Automated Librarian',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\180_CA11 — Atriarch Automaton.jpg" id="180_CA11 — Atriarch Automaton" data-flag="@X" onclick="openSidebar('180_CA11 — Atriarch Automaton',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div id="land" class="anchor"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\186_Dynamic Steppe.jpg" id="186_Dynamic Steppe" data-flag="@X" onclick="openSidebar('186_Dynamic Steppe',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\187_Dynamic Tidepools.jpg" id="187_Dynamic Tidepools" data-flag="@X" onclick="openSidebar('187_Dynamic Tidepools',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\184_Dynamic Marsh.jpg" id="184_Dynamic Marsh" data-flag="@X" onclick="openSidebar('184_Dynamic Marsh',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\185_Dynamic Mountains.jpg" id="185_Dynamic Mountains" data-flag="@X" onclick="openSidebar('185_Dynamic Mountains',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\183_Dynamic Jungle.jpg" id="183_Dynamic Jungle" data-flag="@X" onclick="openSidebar('183_Dynamic Jungle',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\190_Rail Station.jpg" id="190_Rail Station" data-flag="@X" onclick="openSidebar('190_Rail Station',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\182_Canal Extension.jpg" id="182_Canal Extension" data-flag="@X" onclick="openSidebar('182_Canal Extension',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\181_Aetherworks Outflow.jpg" id="181_Aetherworks Outflow" data-flag="@X" onclick="openSidebar('181_Aetherworks Outflow',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\189_Hiker's District.jpg" id="189_Hikers District" data-flag="@X" onclick="openSidebar('189_Hikers District',false)"></div>
+				<div class="container"><img alt="/sets\ARI-files\img\188_Ghirapur Parkland.jpg" id="188_Ghirapur Parkland" data-flag="@X" onclick="openSidebar('188_Ghirapur Parkland',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+	</div>
+	</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		tmp = document.getElementById(num).src;
+		console.log(num);
+		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+		document.getElementById(num).dataset.alt_src = tmp;
+
+		if (num == 'sidebar_img')
+		{
+			const rotated_img = document.getElementById('sidebar_h_img');
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal && rotated_img.style.display == 'none')
+			{
+				rotated_img.style.display = "block";
+				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+			}
+			else
+			{
+				rotated_img.style.display = "none";
+				sidebar_img.style.filter = "";
+			}
+		}
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	function rolldown() {
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "auto";
+			set.style.margin = "5px";
+		}
+	}
+
+	function rollup() {
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "0px";
+			set.style.margin = "0px 5px";
+		}
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL('search', window.location.origin);
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url;
+	}
+
+		function randomCard() {
+			let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+			let random_card = card_list_arrayified[i];
+
+			const url = new URL('card', window.location.origin);
+			const params = {
+				set: random_card.set,
+				num: random_card.number,
+				name: random_card.card_name
+			}
+			for (const key in params) {
+				url.searchParams.append(key, params[key]);
+			}
+
+			window.location.href = url;
+		}
+	</script>
+</body>
+</html>

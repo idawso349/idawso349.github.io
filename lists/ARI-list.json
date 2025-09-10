@@ -1,0 +1,1271 @@
+﻿[
+    {
+        "card_name": "RW01 \u2014 Austerity Advocate",
+        "number": 37,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UU01",
+        "number": 60,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UB01",
+        "number": 89,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UR01",
+        "number": 118,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UG01",
+        "number": 147,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UW02",
+        "number": 10,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UU02",
+        "number": 61,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UB02",
+        "number": 90,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UR02",
+        "number": 119,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UG02",
+        "number": 148,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UW03",
+        "number": 11,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UU03",
+        "number": 62,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UB03",
+        "number": 91,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UR03",
+        "number": 120,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UG03",
+        "number": 149,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UW04",
+        "number": 12,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UU04",
+        "number": 63,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UB04",
+        "number": 92,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UR04",
+        "number": 121,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UG04",
+        "number": 150,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UW05",
+        "number": 13,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UU05",
+        "number": 64,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UB05",
+        "number": 93,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UR05",
+        "number": 122,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UG05",
+        "number": 151,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UW06",
+        "number": 14,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UU06",
+        "number": 65,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UB06",
+        "number": 94,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UR06",
+        "number": 123,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UG06",
+        "number": 152,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UW07",
+        "number": 15,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UU07",
+        "number": 66,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UB07",
+        "number": 95,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UR07",
+        "number": 124,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UG07",
+        "number": 153,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UW08",
+        "number": 16,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UU08",
+        "number": 67,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UB08",
+        "number": 96,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UR08",
+        "number": 125,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UG08",
+        "number": 154,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UW01",
+        "number": 38,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UU09",
+        "number": 68,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UB09",
+        "number": 97,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UR09",
+        "number": 126,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UG09",
+        "number": 155,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UW09",
+        "number": 39,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UU10",
+        "number": 69,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UB10",
+        "number": 98,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UR10",
+        "number": 127,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UG10",
+        "number": 156,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UW10",
+        "number": 40,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UU11",
+        "number": 70,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UB11",
+        "number": 99,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UR11",
+        "number": 128,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UG11",
+        "number": 157,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UW11",
+        "number": 41,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CU01 \u2014 Jalpari Envoy",
+        "number": 42,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CB01 \u2014 Contract Alchemist",
+        "number": 71,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CR01 \u2014 Gremlin Mascot",
+        "number": 100,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CG01 \u2014 Tirahar Ancestor",
+        "number": 129,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CW01 \u2014 Junior Party Member",
+        "number": 19,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CU02 \u2014 Nilah Seeker",
+        "number": 43,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CB02 \u2014 Yaatra Guru",
+        "number": 72,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CR02 \u2014 Dragchase Veteran",
+        "number": 101,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CG02 \u2014 Ghanam Jal Cultivator",
+        "number": 130,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CW02 \u2014 Lifecraft Heirloom",
+        "number": 20,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CU03 \u2014 Overburdened Aerial",
+        "number": 44,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CB03 \u2014 Blood Driver",
+        "number": 73,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CR03 \u2014 Kammuni Incensed",
+        "number": 102,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CG03 \u2014 Assimilated Orochi",
+        "number": 131,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CW03 \u2014 Mirrormade Mobile",
+        "number": 21,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CU04 \u2014 Sarpah Outcast",
+        "number": 45,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CB04 \u2014 Mandir Soulcutter",
+        "number": 74,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CR04 \u2014 Minister's Bodyguard",
+        "number": 103,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CG04 \u2014 Entangled Wurm",
+        "number": 132,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CW04 \u2014 Night Minister's Stalwart",
+        "number": 22,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CU05 \u2014 Route Mapper",
+        "number": 46,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CB05 \u2014 Razorblade Mobile",
+        "number": 75,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CR05 \u2014 Rogue Refiner",
+        "number": 104,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CG05 \u2014 Tauroid Armature",
+        "number": 133,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CW05 \u2014 Ministry Intern",
+        "number": 23,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CU06 \u2014 Joyous Aerosmith",
+        "number": 47,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CB06 \u2014 Juggernaut Armature",
+        "number": 76,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CR06 \u2014 Raktunag Artist",
+        "number": 105,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CG06 \u2014 Well-oiled Waldo",
+        "number": 134,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CW06 \u2014 Sleepless Lifecrafter",
+        "number": 24,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CU07 \u2014 Jalpari Cityshell",
+        "number": 48,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CB07 \u2014 Tolerance Tester",
+        "number": 77,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CR07 \u2014 Self Igniting Mobile",
+        "number": 106,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CG07 \u2014 Servo Servicer",
+        "number": 135,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CW07 \u2014 Vamanah Ramparts",
+        "number": 25,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CU08 \u2014 Skulking Aethervore",
+        "number": 49,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CB08 \u2014 Schematic Imp",
+        "number": 78,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CR08 \u2014 Storied Maulfist",
+        "number": 107,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CG08 \u2014 Gilded Prizefighter",
+        "number": 136,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CW08 \u2014 Rally Coach",
+        "number": 26,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CU09 \u2014 Flowing Mobile",
+        "number": 50,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CB09 \u2014 Schematic Evangel",
+        "number": 79,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CR09 \u2014 Parade Float",
+        "number": 108,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CG09 \u2014 Applied Kineticist",
+        "number": 137,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CW09 \u2014 Priest of the Incarnations",
+        "number": 27,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CU10 \u2014 Dazzling Wingsuit",
+        "number": 51,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CB10 \u2014 Pravah Blasphemy",
+        "number": 80,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CR10 \u2014 Clever Drake",
+        "number": 109,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CG10 \u2014 Bronzecraft Mobile",
+        "number": 138,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CW10 \u2014 Workshop Patron",
+        "number": 28,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CU11 \u2014 Thundershield",
+        "number": 52,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CB11 \u2014 Vashaati's Dance",
+        "number": 81,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CR11 \u2014 Shock",
+        "number": 110,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CG11 \u2014 Windup Monstrosity",
+        "number": 139,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CW11 \u2014 Patrician Machinist",
+        "number": 29,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CU12 \u2014 Supply Sabotage",
+        "number": 53,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CB12 \u2014 Transcendant Second",
+        "number": 82,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CR12 \u2014 Imported Flowstone",
+        "number": 111,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CG12 \u2014 Destructive Testing",
+        "number": 140,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CW12 \u2014 Engineered Almsmaker",
+        "number": 30,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CU13 \u2014 Rapid Iteration",
+        "number": 54,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CB13 \u2014 Unsettling Craft",
+        "number": 83,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CR13 \u2014 Backfire",
+        "number": 112,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CG13 \u2014 Lifecraft Reinforcement",
+        "number": 141,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CW13 \u2014 Restraint",
+        "number": 31,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CU14 \u2014 Flash Refining",
+        "number": 55,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CB14 \u2014 Unethical Experimentation",
+        "number": 84,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CR14 \u2014 Thrill of Possibility",
+        "number": 113,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CG14 \u2014 Cycle's End",
+        "number": 142,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CW14 \u2014 New Dawn Pamphlet",
+        "number": 32,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CU15 \u2014 Recognize Mistakes",
+        "number": 56,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CB15 \u2014 Schematic Verse",
+        "number": 85,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CR15 \u2014 Rage of the Forgotten",
+        "number": 114,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CG15 \u2014 Cycles Beginning",
+        "number": 143,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CW15 \u2014 Precision Reprisal",
+        "number": 33,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CU16 \u2014 Observe the Cycle",
+        "number": 57,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CB16 \u2014 Circular Economics",
+        "number": 86,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CR16 \u2014 Time to Quit",
+        "number": 115,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CG16 \u2014 Peema Aetherscaping",
+        "number": 144,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CW16 \u2014 Structural Redesign",
+        "number": 34,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CU17 \u2014 Crunch Time",
+        "number": 58,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CB17 \u2014 Greed of Ant Svayam",
+        "number": 87,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CR17 \u2014 Consign to Rubbish",
+        "number": 116,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CG17 \u2014 Polluting Demise",
+        "number": 145,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CW17 \u2014 Synthetic Synergy",
+        "number": 35,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CU18 \u2014 Lightning Prototyping",
+        "number": 59,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CB18 \u2014 Empty the Self",
+        "number": 88,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CR18 \u2014 Citipati's Howl",
+        "number": 117,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CG18 \u2014 Invasion Cleanup",
+        "number": 146,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CW18 \u2014 Recall for Redesign",
+        "number": 36,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->gold",
+    {
+        "card_name": "UM01 \u2014 Flightlord of Aya Koan",
+        "number": 162,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UM01 \u2014 Mysterious Middleman",
+        "number": 165,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UM01 \u2014 Abusive Industrialist",
+        "number": 160,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UM01 \u2014 Ministry Shathasta",
+        "number": 164,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UM01 \u2014 Matriarch of Machines",
+        "number": 163,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "RC01 \u2014 Dosraaj, Prince of Seconds",
+        "number": 158,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UM01 \u2014 Overclocked Clockwork",
+        "number": 166,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UM01 \u2014 Streetsweeper's Salesman",
+        "number": 168,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UM01B \u2014 Ministry Margayod",
+        "number": 169,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UM01 \u2014 Consulting Guru",
+        "number": 161,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UM01 \u2014 Priest of Entropy",
+        "number": 167,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "RC02 \u2014 Teldrashi, Gutter Alchemist",
+        "number": 159,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->colorless",
+    {
+        "card_name": "MA01 \u2014 Aya Koan Prime",
+        "number": 1,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UB12",
+        "number": 2,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UB13",
+        "number": 3,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UG12",
+        "number": 4,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UG13",
+        "number": 5,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UR12",
+        "number": 6,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UR13",
+        "number": 7,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UU12",
+        "number": 8,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UU13",
+        "number": 9,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UW12",
+        "number": 17,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "UW13",
+        "number": 18,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CA01 \u2014 Workshop Recycler",
+        "number": 170,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CA02 \u2014 Scrap Pile",
+        "number": 171,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CA03 \u2014 Stylish Scarification",
+        "number": 172,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CA04 \u2014 Aya Koan Floret",
+        "number": 173,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CA05 \u2014 New Model Skiff",
+        "number": 174,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CA06 \u2014 Envoy's Assistant",
+        "number": 175,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CA07 \u2014 Pathfinding Compass",
+        "number": 176,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CA08 \u2014 Refinery Locomotive",
+        "number": 177,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CA09 \u2014 Prototype Mech Suit",
+        "number": 178,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CA10 \u2014 Automated Librarian",
+        "number": 179,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "CA11 \u2014 Atriarch Automaton",
+        "number": 180,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->land",
+    {
+        "card_name": "Dynamic Steppe",
+        "number": 186,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "Dynamic Tidepools",
+        "number": 187,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "Dynamic Marsh",
+        "number": 184,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "Dynamic Mountains",
+        "number": 185,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "Dynamic Jungle",
+        "number": 183,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "Rail Station",
+        "number": 190,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "Canal Extension",
+        "number": 182,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "Aetherworks Outflow",
+        "number": 181,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "Hiker's District",
+        "number": 189,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "Ghirapur Parkland",
+        "number": 188,
+        "shape": "normal",
+        "set": "ARI"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    }
+]
